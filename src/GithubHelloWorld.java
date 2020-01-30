@@ -2,6 +2,7 @@ public class GithubHelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World.");
         helloWorld();
+        yourName();
 
     }
 
@@ -9,7 +10,9 @@ public class GithubHelloWorld {
         System.out.println("Hello Github World");
     }
 
-
+    public static void yourName(){
+        System.out.println("This is Hannah");
+    }
 
 
 }
